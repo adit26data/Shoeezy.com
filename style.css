@@ -1,0 +1,205 @@
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto Serif', serif;
+    letter-spacing: 0.6rem;
+
+}
+
+.title {
+    background: linear-gradient(to right, #c31432, #240b36);
+    padding: 3% 5% 2% 3%;
+    height: 400px;
+    margin-top: 0px;
+
+}
+
+.title .carousel-item {
+    height: 300px;
+
+}
+
+.title .carousel-item img {
+    object-fit: cover;
+    border-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.title .carousel-caption {
+    color: black;
+    font-size: bold;
+    font-family: 'Roboto Serif';
+    font-weight: 1000;
+    letter-spacing: 0.3rem;
+}
+
+.title h5 {
+    font-size: large;
+    font-weight: bold;
+}
+
+h4 {
+    visibility: hidden;
+}
+
+#cardsPromo {
+    margin-top: -2rem;
+}
+
+.card-body {
+    background: linear-gradient(to right, #de6262, #ffb88c);
+}
+
+.card-title {
+    color: white;
+    letter-spacing: 0.3rem;
+    font-family: 'Roboto Serif', serif;
+    font-size: medium;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+#list {
+    float: right;
+}
+
+.intro2 p {
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.people {
+    padding: 50px 0;
+    cursor: pointer;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 148, 255, 0.75);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .cover {
+    opacity: 1;
+}
+
+.item .name {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd8fb;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.social {
+    font-size: 18px;
+}
+
+.social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.intro2 {
+    margin-top: 0px;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 900;
+}
+
+#popularDeals {
+    margin-top: -46px;
+    background-color: antiquewhite;
+
+}
+
+.box {
+    border-radius: 30px;
+}
+
+footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+#temp1 {
+    margin-top: 0px;
+}
+
+#unique {
+    background: rgb(59, 49, 49);
+}
+
+#unique p {
+    color: white;
+}
+
+#temp3 {
+    margin-top: 0px;
+}
+
+.footer {
+    height: 192px;
+}
+
+#foot {
+    background-color: black;
+    margin-top: 3px;
+    height: 215px;
+}
+
+.card-group {
+    height: 215px;
+}

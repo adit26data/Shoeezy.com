@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto Serif', serif;
+    letter-spacing: 0.6rem;
+
+}
+
+.container {
+    transform-style: preserve-3d;
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+    border-radius: 30px;
+}
+
+
+
+.container .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    border-radius: 30px;
+
+}
+
+.container .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.container .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #c31432, #240b36);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+.container .box:hover .body {
+    transform: rotateY(180deg);
+}
+
+.container .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: #dbdcdb;
+    transform: translateZ(100px);
+}
+
+.container .box .body .content div h3 {
+    letter-spacing: 1px;
+}
+
+.box .body {
+    border-radius: 30px;
+}
+
+.temp {
+    border-radius: 30px;
+}
+
+.temp h3,
+p {
+    color: black;
+}
